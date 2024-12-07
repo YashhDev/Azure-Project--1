@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "air-bnb-project"
+		},
+		"CosmosDbLS_connectionString": {
+			"value": ""
+		},
+		"AirbnbADLS_properties_typeProperties_url": {
+			"value": "https://airbnbdatadev.dfs.core.windows.net/"
+		},
+		"SynapseDWH_properties_typeProperties_server": {
+			"value": "synapseysdevworkspace.sql.azuresynapse.net"
+		},
+		"SynapseDWH_properties_typeProperties_database": {
+			"value": "airbnb_dwh"
+		}
+	}
+}
