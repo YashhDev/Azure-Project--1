@@ -24,7 +24,7 @@
 							"referenceName": "AirbnbADLS",
 							"type": "LinkedServiceReference"
 						},
-						"folderPath": "airbnb/synapse_stage"
+						"folderPath": "airbnb/staging_folder"
 					},
 					"compute": {
 						"coreCount": 8,
